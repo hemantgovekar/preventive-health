@@ -1,0 +1,72 @@
+[
+    {
+        "index": 0,
+        "heading": "Preventive Health",
+        "required": 0,
+        "sections": {
+            "index": 0,
+            "heading": "General (check all that applies)",
+            "required": "0",
+            "questions": [
+                {
+                    "headings": "Well nourished",
+                    "answer": "true",
+                    "type": "ScreeningCheckbox",
+                    "css-class": "col-md-12"
+                },
+                {
+                    "headings": "Alert",
+                    "answer": "true",
+                    "type": "ScreeningCheckbox",
+                    "css-class": "col-md-12"
+                },
+                {
+                    "headings": "Review of Systems Performed",
+                    "answer": "",
+                    "type": "ScreeningCheckbox",
+                    "css-class": "col-md-12",
+                    "questions": [
+                        {
+                            "headings": "Abnormal Exam Findings",
+                            "answer": "Hemant Testing",
+                            "type": "text",
+                            "required": "false",
+                            "css-class": "col-md-12"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "index": 1,
+        "heading": "Cognitive Impairment",
+        "required": true,
+        "questions": [
+            {
+                "headings": "Well nourished",
+                "answer": "Yes",
+                "required": "true",
+                "type": "yesNo",
+                "css-class": "col-md-12"
+            },
+            {
+                "headings": "Findings",
+                "answer": "Patient is cognitive",
+                "required": "true",
+                "type": "radio",
+                "css-class": "col-md-12",
+                "options": [
+                    {
+                        "label": "Patient is cognitive",
+                        "value": "Patient is cognitive"
+                    },
+                    {
+                        "label": "Patient is not cognitive",
+                        "value": "Patient is not cognitive"
+                    }
+                ]
+            }           
+        ]
+    }
+]
